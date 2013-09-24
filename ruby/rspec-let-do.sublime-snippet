@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+let(:${1:this}) do
+  ${0}
+end
+]]></content>
+  <tabTrigger>letdo</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>let ... do ... end</description>
+</snippet>
