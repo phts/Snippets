@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+before(:${1:each}) do
+  ${0}
+end
+]]></content>
+  <tabTrigger>before</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>before ... do ... end</description>
+</snippet>
