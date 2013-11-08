@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+stub(:${1:method}).with(${2:params}).and_return(${3:nil})
+${0}
+]]></content>
+  <tabTrigger>stub</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>stub(...).with(...).and_return(...)</description>
+</snippet>
