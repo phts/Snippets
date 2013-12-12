@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+it "should ${1:something}" do
+  ${0}
+end
+]]></content>
+  <tabTrigger>itdo</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>it ... do ... end</description>
+</snippet>
