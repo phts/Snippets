@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-pending "${1:reason}"
+pending '${1:reason}'
 ]]></content>
   <tabTrigger>pending</tabTrigger>
   <scope>source.ruby</scope>
