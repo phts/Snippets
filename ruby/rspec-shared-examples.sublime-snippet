@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+shared_examples '${1:name}' do |${2:params}|
+  ${0}
+end
+]]></content>
+  <tabTrigger>shared_examples</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>shared_examples ... do ... end</description>
+</snippet>
