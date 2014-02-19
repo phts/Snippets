@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+if (${1:condition}) return ${2:false};
+]]></content>
+  <tabTrigger>ifret</tabTrigger>
+  <scope>source.js, text.haml</scope>
+  <description>if (...) return ...;</description>
+</snippet>
