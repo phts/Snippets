@@ -80,7 +80,25 @@
 
 ## JavaScript
 
+    function ...(...) {
+      ...
+    }
+
+---
+
+    if (...) return ...;
+
+---
+
+    if (...) {
+      ...
+    }
+
 ### jQuery
+
+    $("...")
+
+---
 
     $(function() {
       ...
@@ -95,6 +113,18 @@
 ---
 
 ### Jasmine
+
+    afterEach(function() {
+      ...
+    });
+
+---
+
+    beforeEach(function() {
+      ...
+    });
+
+---
 
     describe(..., function() {
       ...
