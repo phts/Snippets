@@ -2,6 +2,12 @@
 
 ## Ruby
 
+    return ... if ...
+
+---
+
+    return ... unless ...
+
 ### Rspec
 
     after ... do

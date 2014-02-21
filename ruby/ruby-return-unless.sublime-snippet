@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+return ${1:false} unless ${2:condition}
+]]></content>
+  <tabTrigger>retunless</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>return ... unless ...</description>
+</snippet>

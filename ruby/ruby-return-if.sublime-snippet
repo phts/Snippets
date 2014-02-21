@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+return ${1:false} if ${2:condition}
+]]></content>
+  <tabTrigger>retif</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>return ... if ...</description>
+</snippet>
