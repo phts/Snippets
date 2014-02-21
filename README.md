@@ -80,7 +80,7 @@
 
 ## JavaScript
 
-    function ...(...) {
+    function ... {
       ...
     }
 
