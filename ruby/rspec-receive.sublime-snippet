@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+receive(:${1:method}).with(${2:params}).and_return(${3:nil})
+]]></content>
+  <tabTrigger>receive</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>receive(...).with(...).and_return(...)</description>
+</snippet>

@@ -16,6 +16,10 @@
 
 ---
 
+    allow(...).to
+
+---
+
     before ... do
       ...
     end
@@ -35,6 +39,10 @@
 ---
 
     described_class
+
+---
+
+    expect(...).to
 
 ---
 
@@ -67,6 +75,12 @@
 ---
 
     pending '...'
+
+---
+
+    receive(...).with(...).and_return(...)
+
+(Used with `allow`and `expect`)
 
 ---
 
