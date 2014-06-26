@@ -36,6 +36,8 @@
 
     described_class
 
+---
+
     it '...' do
       ...
     end
