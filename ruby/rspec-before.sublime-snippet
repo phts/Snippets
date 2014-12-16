@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 before :${1:each} do
-  ${0}
+	${0}
 end
 ]]></content>
   <tabTrigger>before</tabTrigger>
