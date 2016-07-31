@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+beforeEach(inject([${1}], (${2}) => {
+	${0}
+});
+]]></content>
+  <tabTrigger>beforeEach inject</tabTrigger>
+  <scope>source.ts</scope>
+  <description>beforeEach(inject(…))</description>
+</snippet>

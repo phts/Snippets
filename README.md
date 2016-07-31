@@ -55,3 +55,21 @@
 1. `describe(…, function() { … });`
 1. `expect(…).toEqual(…);`
 1. `it(…, function() { … });`
+
+### TypeScript
+
+1. `import { … } from …;`
+
+#### Angular 2
+
+1. `@Component({ … })`
+
+#### Jasmine
+
+1. `afterEach(() => { … });`
+1. `beforeEach(() => { … });`
+1. `beforeEach(inject(() => { … }));`
+1. `beforeEachProviders(() => { … });`
+1. `describe(…, () => { … });`
+1. `expect(…).toEqual(…);`
+1. `it(…, () => { … });`

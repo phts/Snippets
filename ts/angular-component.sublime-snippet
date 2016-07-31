@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+@${1}Component({
+	selector: '${2:${TM_FILENAME/\..*$//}}',
+	templateUrl: './${2:${TM_FILENAME/\..*$//}}.component.html',
+	styleUrls: ['./${2:${TM_FILENAME/\..*$//}}.component.scss'],
+	directives: [${3}],
+})
+]]></content>
+  <tabTrigger>Component</tabTrigger>
+  <scope>source.ts</scope>
+  <description>@Component({ … })</description>
+</snippet>
