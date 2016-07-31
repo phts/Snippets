@@ -1,11 +1,20 @@
 # Sublime Text 3 Snippets
 
-## Ruby
+## Installation
+
+### Package Control
+
+1. `ctrl+shift+p` &rarr; `Package Control: Add Repository` &rarr; `https://github.com/phts/sublime-snippets`
+2. `ctrl+shift+p` &rarr; `Package Control: Install Package` &rarr; `sublime-snippets`
+
+## Content
+
+### Ruby
 
 1. `return … if …`
 1. `return … unless …`
 
-### Rspec
+#### Rspec
 
 1. `after … do … end`
 1. `allow(…).to`
@@ -27,19 +36,19 @@
 1. `stub(…).with(…).and_return(…)`
 1. `subject { … }`
 
-## JavaScript
+### JavaScript
 
 1. `function … { … }`
 1. `if (…) return …;`
 1. `if (…) { … }`
 
-### jQuery
+#### jQuery
 
 1. `$("…")`
 1. `$(function() { … });`
 1. `on(…, …, function() { … });`
 
-### Jasmine
+#### Jasmine
 
 1. `afterEach(function() { … });`
 1. `beforeEach(function() { … });`
