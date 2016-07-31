@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-on("${1:change}", "${2:selector}", function() {
+on('${1:change}', '${2:selector}', function() {
 	${0}
 });
 ]]></content>
