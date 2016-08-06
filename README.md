@@ -59,6 +59,8 @@
 ### TypeScript
 
 1. `import { … } from …;`
+1. `constructor(…) { … }`
+1. `… => …`
 
 #### Angular 2
 

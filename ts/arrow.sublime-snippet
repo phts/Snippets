@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:params} => ${0:body}
+]]></content>
+  <tabTrigger>arrow</tabTrigger>
+  <scope>source.ts</scope>
+  <description>… => …</description>
+</snippet>
