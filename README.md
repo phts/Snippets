@@ -53,6 +53,7 @@
 1. `afterEach(function() { … });`
 1. `beforeEach(function() { … });`
 1. `describe(…, function() { … });`
+1. `describe('when …', function() { … });`
 1. `expect(…).toEqual(…);`
 1. `it(…, function() { … });`
 
@@ -73,5 +74,6 @@
 1. `beforeEach(inject(() => { … }));`
 1. `beforeEachProviders(() => { … });`
 1. `describe(…, () => { … });`
+1. `describe('when …', () => { … });`
 1. `expect(…).toEqual(…);`
 1. `it(…, () => { … });`
