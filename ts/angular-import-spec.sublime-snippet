@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+import {
+	describe,
+	expect,
+	beforeEach,
+	it,
+	inject,
+	addProviders,
+} from '@angular/core/testing';
+
+import {${1:Subject}} from '${2:${TM_FILENAME/\..*$//}}';
+
+describe('${1:Subject}', () => {
+	var ${3:subject}: ${1:Subject};
+
+	beforeEach(() => {
+		addProviders([
+			${1:Subject},
+		]);
+	});
+
+	beforeEach(inject([${1:Subject}], (_${3:subject}) => {
+		${3:subject} = _${3:subject};
+	}));
+
+	${0}
+});
+]]></content>
+  <tabTrigger>import-spec</tabTrigger>
+  <scope>source.ts</scope>
+  <description>import testing stuff</description>
+</snippet>
