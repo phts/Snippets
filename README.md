@@ -66,7 +66,8 @@
 #### Angular 2
 
 1. `@Component({ … })`
-1. `addProviders([ … ])`
+1. `TestBed.configureTestingModule({ … })`
+1. import testing stuff template
 
 #### Jasmine
 

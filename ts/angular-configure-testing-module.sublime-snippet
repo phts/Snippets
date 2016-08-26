@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+TestBed.configureTestingModule({
+	imports: [
+		${1:HttpModule},
+	],
+	providers: [
+		${1:{provide: XHRBackend, useClass: MockBackend\}},
+		${0:MyService},
+	],
+});
+]]></content>
+  <tabTrigger>TestBed</tabTrigger>
+  <scope>source.ts</scope>
+  <description>TestBed.configureTestingModule(…)</description>
+</snippet>

@@ -1,12 +1,8 @@
 <snippet>
   <content><![CDATA[
 import {
-	describe,
-	expect,
-	beforeEach,
-	it,
 	inject,
-	addProviders,
+	TestBed,
 } from '@angular/core/testing';
 
 import {${1:Subject}} from '${2:${TM_FILENAME/\..*$//}}';
@@ -15,9 +11,7 @@ describe('${1:Subject}', () => {
 	var ${3:subject}: ${1:Subject};
 
 	beforeEach(() => {
-		addProviders([
-			${1:Subject},
-		]);
+		${4:TestBed}
 	});
 
 	beforeEach(inject([${1:Subject}], (_${3:subject}) => {
