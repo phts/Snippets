@@ -5,7 +5,7 @@ TestBed.configureTestingModule({
 		${1:HttpModule},
 	],
 	providers: [
-		${1:{provide: XHRBackend, useClass: MockBackend\}},
+		${2:{provide: XHRBackend, useClass: MockBackend\}},
 		${0:MyService},
 	],
 });
