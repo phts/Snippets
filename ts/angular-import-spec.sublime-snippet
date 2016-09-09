@@ -5,10 +5,10 @@ import {
 	TestBed,
 } from '@angular/core/testing';
 
-import {${1:Subject}} from '${2:${TM_FILENAME/\..*$//}}';
+import {${1:Subject}} from './${2:${TM_FILENAME/\.spec\.ts$//}}';
 
 describe('${1:Subject}', () => {
-	var ${3:subject}: ${1:Subject};
+	let ${3:subject}: ${1:Subject};
 
 	beforeEach(() => {
 		${4:TestBed}
