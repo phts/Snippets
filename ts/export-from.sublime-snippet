@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+export ${0:*} from '${1}';
+]]></content>
+  <tabTrigger>export</tabTrigger>
+  <scope>source.ts</scope>
+  <description>export … from …</description>
+</snippet>

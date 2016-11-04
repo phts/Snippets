@@ -60,6 +60,7 @@
 ### TypeScript
 
 1. `import { … } from …;`
+1. `export * from …;`
 1. `constructor(…) { … }`
 1. `… => …`
 
