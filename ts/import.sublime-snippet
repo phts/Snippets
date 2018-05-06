@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 import {${0}} from '${1}';
 ]]></content>
-  <tabTrigger>import</tabTrigger>
-  <scope>source.ts</scope>
-  <description>import … from …</description>
+	<tabTrigger>import</tabTrigger>
+	<scope>source.ts</scope>
+	<description>import … from …</description>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 stub(:${1:method}).with(${2:params}).and_return(${3:nil})
 ]]></content>
-  <tabTrigger>stub</tabTrigger>
-  <scope>source.ruby</scope>
-  <description>stub(...).with(...).and_return(...)</description>
+	<tabTrigger>stub</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>stub(...).with(...).and_return(...)</description>
 </snippet>

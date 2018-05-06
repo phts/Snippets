@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 pending '${1:reason}'
 ]]></content>
-  <tabTrigger>pending</tabTrigger>
-  <scope>source.ruby</scope>
-  <description>pending ...</description>
+	<tabTrigger>pending</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>pending ...</description>
 </snippet>

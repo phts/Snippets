@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 TestBed.configureTestingModule({
 	imports: [
 		${1:HttpModule},
@@ -10,7 +10,7 @@ TestBed.configureTestingModule({
 	],
 });
 ]]></content>
-  <tabTrigger>TestBed</tabTrigger>
-  <scope>source.ts</scope>
-  <description>TestBed.configureTestingModule(…)</description>
+	<tabTrigger>TestBed</tabTrigger>
+	<scope>source.ts</scope>
+	<description>TestBed.configureTestingModule(…)</description>
 </snippet>

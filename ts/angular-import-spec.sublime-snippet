@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 import {
 	inject,
 	TestBed,
@@ -21,7 +21,7 @@ describe('${1:Subject}', () => {
 	${0}
 });
 ]]></content>
-  <tabTrigger>import-spec</tabTrigger>
-  <scope>source.ts</scope>
-  <description>import testing stuff</description>
+	<tabTrigger>import-spec</tabTrigger>
+	<scope>source.ts</scope>
+	<description>import testing stuff</description>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 described_class
 ]]></content>
-  <tabTrigger>descrcl</tabTrigger>
-  <scope>source.ruby</scope>
-  <description>described_class</description>
+	<tabTrigger>descrcl</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>described_class</description>
 </snippet>

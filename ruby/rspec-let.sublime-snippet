@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 let(:${1:something}) { ${0} }
 ]]></content>
-  <tabTrigger>let</tabTrigger>
-  <scope>source.ruby</scope>
-  <description>let ... { ... }</description>
+	<tabTrigger>let</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>let ... { ... }</description>
 </snippet>

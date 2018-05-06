@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 expect(${1:subject}).${2:to} ${0}
 ]]></content>
-  <tabTrigger>expect</tabTrigger>
-  <scope>source.ruby</scope>
-  <description>expect(...).to</description>
+	<tabTrigger>expect</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>expect(...).to</description>
 </snippet>

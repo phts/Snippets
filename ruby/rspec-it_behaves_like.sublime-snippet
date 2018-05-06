@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 it_behaves_like '${1:name}'
 ]]></content>
-  <tabTrigger>it_behaves_like</tabTrigger>
-  <scope>source.ruby</scope>
-  <description>it_behaves_like</description>
+	<tabTrigger>it_behaves_like</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>it_behaves_like</description>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 describe('when ${1:something}', () => {
 	${0}
 });
 ]]></content>
-  <tabTrigger>when</tabTrigger>
-  <scope>source.js</scope>
-  <description>describe(when …)</description>
+	<tabTrigger>when</tabTrigger>
+	<scope>source.js</scope>
+	<description>describe(when …)</description>
 </snippet>

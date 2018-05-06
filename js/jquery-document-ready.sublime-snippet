@@ -1,10 +1,10 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 \$(function () {
 	${0}
 });
 ]]></content>
-  <tabTrigger>function-ready</tabTrigger>
-  <scope>source.js, text.haml</scope>
-  <description>$(function() { ... });</description>
+	<tabTrigger>function-ready</tabTrigger>
+	<scope>source.js, text.haml</scope>
+	<description>$(function() { ... });</description>
 </snippet>
