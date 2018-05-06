@@ -5,6 +5,6 @@ beforeEach(() => {
 });
 ]]></content>
 	<tabTrigger>beforeEach</tabTrigger>
-	<scope>source.ts</scope>
+	<scope>source.ts, source.tsx</scope>
 	<description>beforeEach(…)</description>
 </snippet>
