@@ -8,7 +8,7 @@ interface Props {
 interface State {
 }
 
-class ${1:Button} extends React.Component<Props, State> {
+class ${1:${TM_FILENAME/\..*$//}} extends React.Component<Props, State> {
 	render() {${0}
 		return (
 			<div>
@@ -17,7 +17,7 @@ class ${1:Button} extends React.Component<Props, State> {
 	}
 }
 
-export default ${1:Button}
+export default ${1:${TM_FILENAME/\..*$//}}
 ]]></content>
 	<tabTrigger>comp</tabTrigger>
 	<scope>source.js, source.ts, source.tsx</scope>

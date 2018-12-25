@@ -2,11 +2,11 @@
 	<content><![CDATA[
 import styled from 'styled-components'
 
-const ${1} = styled.div`
+const ${1:${TM_FILENAME/\..*$//}} = styled.div`
 	${0}
 `
 
-export default ${1}
+export default ${1:${TM_FILENAME/\..*$//}}
 ]]></content>
 	<tabTrigger>styledcomp</tabTrigger>
 	<scope>source.js, source.ts, source.tsx</scope>
