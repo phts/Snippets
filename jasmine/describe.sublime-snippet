@@ -2,9 +2,9 @@
 	<content><![CDATA[
 describe('${1:something}', () => {
 	${0}
-});
+})
 ]]></content>
 	<tabTrigger>describe</tabTrigger>
-	<scope>source.js</scope>
-	<description>describe( ... );</description>
+	<scope>source.js, source.ts, source.tsx</scope>
+	<description>describe(…)</description>
 </snippet>

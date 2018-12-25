@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-import ${1} from './${1}'${0}
-]]></content>
-	<tabTrigger>importd</tabTrigger>
-	<scope>source.js</scope>
-	<description>import default from …</description>
-</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+styled.${1:div}`
+	${0}
+`
+]]></content>
+	<tabTrigger>styled</tabTrigger>
+	<scope>source.js, source.ts, source.tsx</scope>
+	<description>styled.…</description>
+</snippet>

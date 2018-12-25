@@ -38,33 +38,26 @@ For Sublime Text 3.
 1. `stub(…).with(…).and_return(…)`
 1. `subject { … }`
 
-### JavaScript
+### EcmaScript-like languages (JavaScript, TypeScript)
 
+1. `… => …`
+1. `constructor(…) { … }`
+1. `constructor(props) { … }`
+1. `export default …`
+1. `export … from …`
+1. `export …`
 1. `function … { … }`
 1. `if (…) return …;`
 1. `if (…) { … }`
+1. `import … from …`
+1. `import {…} from …`
 
-#### jQuery
+#### React
 
-1. `$("…")`
-1. `$(function() { … });`
-1. `on(…, …, function() { … });`
-
-#### Jasmine
-
-1. `afterEach(function() { … });`
-1. `beforeEach(function() { … });`
-1. `describe(…, function() { … });`
-1. `describe('when …', function() { … });`
-1. `expect(…).toEqual(…);`
-1. `it(…, function() { … });`
-
-### TypeScript
-
-1. `import { … } from …;`
-1. `export * from …;`
-1. `constructor(…) { … }`
-1. `… => …`
+1. `import … from './…'`
+1. `import styled from 'styled-components'`
+1. component template
+1. styled-component template
 
 #### Angular 2
 
@@ -76,8 +69,13 @@ For Sublime Text 3.
 
 1. `afterEach(() => { … });`
 1. `beforeEach(() => { … });`
-1. `beforeEach(inject(() => { … }));`
 1. `describe(…, () => { … });`
 1. `describe('when …', () => { … });`
 1. `expect(…).toEqual(…);`
 1. `it(…, () => { … });`
+
+#### jQuery
+
+1. `$(…)`
+1. `$(function() { … });`
+1. `on(…, …, function() { … });`

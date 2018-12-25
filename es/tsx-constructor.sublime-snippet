@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-constructor(${1:props: Props}) {
+constructor(props: ${1:Props}) {
 	super(props)
 	${0}
 }
