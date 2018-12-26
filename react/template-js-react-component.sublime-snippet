@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react'
+
+class ${1:${TM_FILENAME/\..*$//}} extends React.Component {
+	render() {${0}
+		return (
+			<div>
+			</div>
+		)
+	}
+}
+
+export default ${1:${TM_FILENAME/\..*$//}}
+]]></content>
+	<tabTrigger>templatecomp</tabTrigger>
+	<scope>source.js</scope>
+	<description>tpl: stateful comp</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react'
+
+const ${1:${TM_FILENAME/\..*$//}}: React.StatelessComponent = () => (
+	<div>${0}
+	</div>
+)
+
+export default ${1:${TM_FILENAME/\..*$//}}
+]]></content>
+	<tabTrigger>templatecompstatelesscomp</tabTrigger>
+	<scope>source.js</scope>
+	<description>tpl: stateless comp</description>
+</snippet>
