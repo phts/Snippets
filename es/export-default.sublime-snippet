@@ -2,7 +2,7 @@
 	<content><![CDATA[
 export default ${1}
 ]]></content>
-	<tabTrigger>expd</tabTrigger>
+	<tabTrigger>exportd</tabTrigger>
 	<scope>source.js, source.ts, source.tsx</scope>
 	<description>export default …</description>
 </snippet>
