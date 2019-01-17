@@ -2,7 +2,7 @@
 	<content><![CDATA[
 import React from 'react'
 
-const ${1:${TM_FILENAME/\..*$//}}: React.StatelessComponent = () => (
+const ${1:${TM_FILENAME/\..*$//}} = () => (
 	<div>${0}
 	</div>
 )
