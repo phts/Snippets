@@ -1,11 +1,15 @@
 <snippet>
 	<content><![CDATA[
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const ${1:${TM_FILENAME/\..*$//}} = () => (
 	<div>${0}
 	</div>
 )
+
+${1:${TM_FILENAME/\..*$//}}.propTypes = {
+}
 
 export default ${1:${TM_FILENAME/\..*$//}}
 ]]></content>
