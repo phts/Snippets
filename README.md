@@ -57,6 +57,7 @@ For Sublime Text 3.
 1. `import … from './…'`
 1. `import styled from 'styled-components'`
 1. component template
+1. jest test template
 1. styled-component template
 
 #### Angular 2
