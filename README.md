@@ -68,12 +68,16 @@ For Sublime Text 3.
 
 #### Jest/Jasmine
 
+1. `afterAll(() => { … })`
 1. `afterEach(() => { … })`
+1. `beforeAll(() => { … })`
 1. `beforeEach(() => { … })`
 1. `describe(…, () => { … })`
 1. `describe('when …', () => { … })`
 1. `expect(…).toEqual(…)`
+1. `await expect(…).resolves.toEqual(…)`
 1. `it(…, () => { … })`
+1. `jest.mock(…)`
 
 #### jQuery
 
