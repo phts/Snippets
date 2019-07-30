@@ -68,15 +68,15 @@ For Sublime Text 3.
 
 #### Jest/Jasmine
 
-1. `afterEach(() => { … });`
-1. `beforeEach(() => { … });`
-1. `describe(…, () => { … });`
-1. `describe('when …', () => { … });`
-1. `expect(…).toEqual(…);`
-1. `it(…, () => { … });`
+1. `afterEach(() => { … })`
+1. `beforeEach(() => { … })`
+1. `describe(…, () => { … })`
+1. `describe('when …', () => { … })`
+1. `expect(…).toEqual(…)`
+1. `it(…, () => { … })`
 
 #### jQuery
 
 1. `$(…)`
-1. `$(function() { … });`
+1. `$(function() { … })`
 1. `on(…, …, function() { … });`
