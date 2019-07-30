@@ -66,7 +66,7 @@ For Sublime Text 3.
 1. `TestBed.configureTestingModule({ … })`
 1. import testing stuff template
 
-#### Jasmine
+#### Jest/Jasmine
 
 1. `afterEach(() => { … });`
 1. `beforeEach(() => { … });`
